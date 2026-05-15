@@ -1,5 +1,5 @@
 #include "../include/banking_core.h"
 
-int calculate(int a) {
-    return a * 2;
+double calculate(double a, double b) {
+    return a + b;
 }

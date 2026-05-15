@@ -3,8 +3,8 @@
 
 int main() {
 
-    int first = calculate(5);
-    int second = calculate(10);
+    double first = calculate(5.0, 2.0);
+    double second = calculate(10.0, 3.0);
 
     std::cout << first << std::endl;
     std::cout << second << std::endl;
