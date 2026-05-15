@@ -1,7 +1,14 @@
 #include <iostream>
-#include "../include/banking_core.h"
 
 int main() {
-    double balance = 1000;
-     return 0;
+
+    int* data = new int[100];
+
+    data[0] = 5;
+
+    std::cout << data[0] << std::endl;
+
+    delete[] data;
+
+    return 0;
 }
