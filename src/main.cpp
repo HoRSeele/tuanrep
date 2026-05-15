@@ -1,14 +1,11 @@
 #include <iostream>
+#include "../include/banking_core.h"
 
 int main() {
 
-    int* data = new int[100];
+    int result = calculate(5);
 
-    data[0] = 5;
-
-    std::cout << data[0] << std::endl;
-
-    delete[] data;
+    std::cout << result << std::endl;
 
     return 0;
 }
